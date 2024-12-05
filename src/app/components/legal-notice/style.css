@@ -1,0 +1,29 @@
+.legal-accordion {
+  text-align: center;
+}
+.accordion-bg {
+  background-color: #eff2f8 !important;
+}
+
+.accordion-responsive {
+  justify-content: right !important  ;
+  padding-right: 50px !important;
+}
+.text-right {
+  text-align: right !important;
+}
+.legal-text {
+  text-align: right;
+}
+
+@media screen and (max-width: 768px) {
+  .legal-text {
+    text-align: center;
+  }
+  .accordion-responsive {
+    justify-content: center !important  ;
+  }
+  .accordion-responsive:after {
+    right: 90px !important;
+  }
+}

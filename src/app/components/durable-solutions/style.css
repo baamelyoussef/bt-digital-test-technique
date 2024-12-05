@@ -1,0 +1,22 @@
+
+.durable-solutions-container{
+    display: flex;
+    padding: 64px;
+    gap: 48px;
+
+}
+.durable-solutions-title{
+    padding-inline: 24px;
+}
+.link-color 
+{
+    color: #0C7B91 !important;
+}
+@media screen and (max-width: 768px) {
+    .durable-solutions-container{
+        display: flex;
+        flex-direction: column;
+        padding: 24px;
+        gap: 24px;
+    }
+}

@@ -1,0 +1,39 @@
+
+.expressfix-slider-container {
+    display: flex;
+    position: relative;
+    width: 100%;
+    transition: transform 0.3s ease-in-out;
+  }
+.express-fix-cta-btn {
+  background-color: #0c7b91 !important ;
+  color: white !important;
+  margin-bottom: 44px;
+}
+.express-fix-container {
+  text-align: center;
+  
+}
+.express-fix-box{
+    border: 1px solid white;
+
+}
+.mobile-slider{
+    overflow: hidden;
+}
+.express-fix-note{
+    padding-top: 24px;
+    padding-inline: 12px;
+}
+.express-fix-space{
+    padding-top: 44px;
+}
+.mobile-card{
+    padding-top: 90px;
+    padding-bottom:32px;
+
+    padding-inline: 30px;
+}
+.icon-color{
+    color:#5EC846 !important
+}

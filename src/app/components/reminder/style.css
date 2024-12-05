@@ -1,0 +1,11 @@
+.reminder-section{
+   
+    background-size: cover;
+    background-size: 180%;
+    background-position-x: -16rem;
+    background-position-y: -14rem;
+    background-image: url("/images/reminder-bg.webp");
+}
+.reminder-container{
+    padding: 24px;
+}

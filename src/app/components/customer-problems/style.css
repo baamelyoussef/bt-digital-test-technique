@@ -1,0 +1,22 @@
+
+.customer-problems-card-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  gap: 16px;
+}
+.customer-problems-title{
+  padding-bottom: 24px;
+}
+@media screen and (max-width: 768px) {
+  .customer-problems-card-content {
+    text-align: center;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      align-content: center;
+    }
+   
+    
+  }
+  

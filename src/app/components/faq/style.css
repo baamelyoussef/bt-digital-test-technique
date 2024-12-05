@@ -1,0 +1,24 @@
+
+.faq-container{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    align-self: center;
+}
+.faq-accordion-text{
+    padding-right: 24px;
+}
+.accordion-bg{
+    background-color: #eff2f8 !important
+}
+.faq-accordions{
+    align-self: flex-start;
+}
+
+@media screen and (max-width: 768px) {
+
+    
+    .faq-accordions{
+        padding-top: 44px;
+    }
+}

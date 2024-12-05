@@ -1,0 +1,8 @@
+.hero-img {
+  padding-inline: 6px;
+}
+@media screen and (max-width: 768px) {
+  .hero-desc {
+    padding-inline: 24px;
+  }
+}

@@ -1,0 +1,45 @@
+
+.ecofriendly-fix-svg{
+    text-align: center;
+}
+.ecofriendly-fix-title-section{
+    padding-bottom: 64px;
+}
+
+.desktop-card{
+    background-color: transparent !important;
+    text-align: center;
+    box-shadow: none !important;
+    padding-inline: 24px;
+}
+.desktop-layout{
+    padding: 32px;
+}
+.mobile-card{
+    background-color: transparent !important;
+    text-align: center;
+    box-shadow: none !important;
+
+}
+.ecofriendly-fix-box{
+    position: relative;
+    border-color: white;
+    border-width: 1px;
+    border-style: solid;
+    padding: 32px;
+  
+  
+}
+.ecofriendly-fix-title{
+    padding-inline: 32px;
+    padding-bottom: 44px;
+  }
+@media screen and (max-width: 768px) {
+    .ecofriendly-fix-title{
+        padding-inline: 24px;
+        padding-top: 24px;
+    }
+    .desktop-card{
+        padding-inline: 6px;
+}
+}

@@ -1,0 +1,23 @@
+
+.customer-benefits-card{
+    text-align:center;
+    padding-inline: 8px;
+    gap:24px;
+    display:flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: stretch;
+}
+
+.customer-benefits-highlighted-card{
+    background-color: #eff2f8 !important ;
+}
+.customer-benefits-card-icon{
+    margin-bottom: 12px;
+}
+.customer-benefits-title{
+    padding-inline: 12px;
+}
+.customer-benefits-cards{
+    padding-inline: 16px;
+}
