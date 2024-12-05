@@ -40,7 +40,7 @@ const CustomerProblemsSection: React.FC = () => {
         </Row>
         <Row>
          <Columns  multiline align="ALIGNED_CENTER" className="customer-problems-container">
-          <Column  size={5} mobileSize={undefined}>
+          <Column  size={5} mobileSize={12}>
             <Card fullheight className="customer-problems-card">
               <CardContent className="customer-problems-card-content">
                 <Icon
@@ -73,7 +73,7 @@ const CustomerProblemsSection: React.FC = () => {
               </CardContent>
             </Card>
           </Column>
-          <Column    size={5} mobileSize={undefined}>
+          <Column    size={5} mobileSize={12}>
             <Card fullheight className="customer-problems-card">
               <CardContent className="customer-problems-card-content">
                 <Icon

@@ -53,9 +53,9 @@ const InsuranceSection: React.FC = () => {
                 />
               </Column>
             )}
-            <Column size={4} mobileSize={undefined}>
+            <Column size={4} mobileSize={12}>
               <Columns multiline={!isMobile} className="is-fullwidth">
-                <Column size={12} mobileSize={undefined}>
+                <Column size={12} mobileSize={12}>
                   <Card fullheight className="insurance-card ">
                     <CardContent>
                       <Icon
@@ -68,7 +68,7 @@ const InsuranceSection: React.FC = () => {
                     </CardContent>
                   </Card>
                 </Column>
-                <Column size={12} mobileSize={undefined}>
+                <Column size={12} mobileSize={12}>
                   <Card fullheight className="insurance-card">
                     <CardContent>
                       <Icon

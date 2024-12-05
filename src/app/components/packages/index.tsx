@@ -45,7 +45,7 @@ const PackagesSection: React.FC = () => {
             className="packages-container"
             align="ALIGNED_CENTER"
           >
-            <Column size={ 4} mobileSize={undefined}>
+            <Column size={ 4} mobileSize={12}>
               <Card fullheight className="packages-card">
                 <CardContent className="packages-card-content">
                   <div className="packages-card-icons">
@@ -73,7 +73,7 @@ const PackagesSection: React.FC = () => {
                 </CardContent>
               </Card>
             </Column>
-            <Column size={4} mobileSize={undefined}>
+            <Column size={4} mobileSize={12}>
               <Card fullheight className="packages-card">
                 <CardContent className="packages-card-content">
                   <Icon
